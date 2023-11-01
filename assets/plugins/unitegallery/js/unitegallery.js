@@ -2917,7 +2917,7 @@ function UGThumbsGeneral() {
 
     function _______________SETTERS______________() {
     }
-    ;
+    
 
 
     /**
@@ -3282,7 +3282,7 @@ function UGThumbsGeneral() {
 
     function _______________GETTERS______________() {
     }
-    ;
+    
 
 
     /**
@@ -3326,7 +3326,7 @@ function UGThumbsGeneral() {
 
     function _______________EVENTS______________() {
     }
-    ;
+    
 
     /**
      * on thumb size change - triggered by parent on custom thumbs type
@@ -3852,7 +3852,7 @@ function UGThumbsStrip() {
 
     function ___________GENERAL___________() {
     }
-    ;
+    
 
 
     /**
@@ -4255,7 +4255,7 @@ function UGThumbsStrip() {
 
     function ___________EVENTS___________() {
     }
-    ;
+    
 
     /**
      * on thumb click event. Select the thumb
@@ -4358,7 +4358,7 @@ function UGThumbsStrip() {
 
     function ____________GETTERS___________() {
     }
-    ;
+    
 
 
     /**
@@ -6269,7 +6269,7 @@ function UGStripPanel() {
 
     function __________EVENTS___________() {
     }
-    ;
+    
 
     /**
      * on next button click
@@ -6933,7 +6933,7 @@ function UGGridPanel() {
 
     function __________EVENTS___________() {
     }
-    ;
+    
 
 
 
@@ -6992,7 +6992,7 @@ function UGGridPanel() {
 
     function ______PLACE_ELEMENTS___________() {
     }
-    ;
+    
 
 
     /**
@@ -7540,7 +7540,7 @@ function UGThumbsGrid() {
 
     function __________GENERAL_________() {
     }
-    ;
+    
 
     /**
      * init the gallery
@@ -8274,7 +8274,7 @@ function UGThumbsGrid() {
 
     function __________GETTERS_________() {
     }
-    ;
+    
 
     /**
      * get inner object size according the orientation
@@ -8434,7 +8434,7 @@ function UGThumbsGrid() {
 
     function __________EVENTS_______() {
     }
-    ;
+    
 
 
     /**
@@ -9099,7 +9099,7 @@ function UGTiles() {
 
     function __________GENERAL_________() {
     }
-    ;
+    
 
 
     /**
@@ -9275,7 +9275,7 @@ function UGTiles() {
 
     function __________COLUMN_TYPE_RELATED_________() {
     }
-    ;
+    
 
     /**
      * count width by number of columns
@@ -9663,7 +9663,7 @@ function UGTiles() {
 
     function __________JUSTIFIED_TYPE_RELATED_________() {
     }
-    ;
+    
 
     /**
      * ------------ JUSTIFIED TYPE RELATED FUNCTIONS ----------------
@@ -9909,7 +9909,7 @@ function UGTiles() {
 
     function __________NESTED_TYPE_RELATED_________() {
     }
-    ;
+    
 
 
     /**
@@ -10680,7 +10680,7 @@ function UGTiles() {
         if (newY + sizes.height > g_nestedWork.maxColHeight) {
             g_nestedWork.maxColHeight = newY + sizes.height;
         }
-        ;
+        
 
         if (toShow == true) {
             objTile.fadeTo(0, 1);
@@ -10691,7 +10691,7 @@ function UGTiles() {
 
     function __________COMMON_AND_EVENTS_______() {
     }
-    ;
+    
 
 
     /**
@@ -11374,7 +11374,7 @@ function UGTileDesign() {
 
     function _________________GETTERS________________() {
     }
-    ;
+    
 
 
 
@@ -11580,7 +11580,7 @@ function UGTileDesign() {
 
     function _________________SETTERS________________() {
     }
-    ;
+    
 
 
     /**
@@ -12013,7 +12013,7 @@ function UGTileDesign() {
 
     function _________________EVENTS________________() {
     }
-    ;
+    
 
 
     /**
@@ -12981,7 +12981,7 @@ function UGSlider() {
 
     function __________GENERAL___________() {
     }
-    ;
+    
 
 
     /**
@@ -13817,7 +13817,7 @@ function UGSlider() {
 
     function __________VIDEO_PLAYER_______() {
     }
-    ;
+    
 
 
 
@@ -13870,7 +13870,7 @@ function UGSlider() {
 
     function __________TRANSITION_______() {
     }
-    ;
+    
 
 
 
@@ -14091,7 +14091,7 @@ function UGSlider() {
 
     function __________CONTROLS_OBJECT_______() {
     }
-    ;
+    
 
     /**
      * modify the slider for mobile
@@ -14268,7 +14268,7 @@ function UGSlider() {
 
     function __________EVENTS___________() {
     }
-    ;
+    
 
     /**
      * on item change event
@@ -14613,7 +14613,7 @@ function UGSlider() {
 
     function __________GETTERS___________() {
     }
-    ;
+    
 
     /**
      * get loader class by loader type
@@ -17515,7 +17515,7 @@ function UGZoomSliderControl() {
 
     function ____________PAN_____________() {
     }
-    ;
+    
 
 
     /**
@@ -17750,11 +17750,11 @@ function UGZoomSliderControl() {
 
     function ____________END_PAN_____________() {
     }
-    ;
+    
 
     function ________TOUCH_ZOOM_____________() {
     }
-    ;
+    
 
     /**
      * start touch zoom
@@ -17921,7 +17921,7 @@ function UGZoomSliderControl() {
 
     function ________END_TOUCH_ZOOM_____________() {
     }
-    ;
+    
 
 
     /**
@@ -19350,7 +19350,7 @@ function UGVideoPlayer() {
 
     function __________EVENTS___________() {
     }
-    ;
+    
 
     /**
      * on close button click event
@@ -19949,7 +19949,7 @@ function UniteGalleryMain() {
 
     function __________INIT_GALLERY_______() {
     }
-    ;
+    
 
     /**
      * get theme function from theme name
@@ -19983,7 +19983,7 @@ function UniteGalleryMain() {
         } catch (e) {
             //check registered themes
         }
-        ;
+        
 
         g_options.gallery_theme = eval(themeFunction);
 
@@ -20876,11 +20876,11 @@ function UniteGalleryMain() {
 
     function __________END_INIT_GALLERY_______() {
     }
-    ;
+    
 
     function __________EVENTS_____________() {
     }
-    ;
+    
 
 
     /**
@@ -21199,7 +21199,7 @@ function UniteGalleryMain() {
 
     function __________GENERAL_______() {
     }
-    ;
+    
 
     /**
      * get items array
@@ -22438,7 +22438,7 @@ function UGLightbox() {
 
     function __________GENERAL_________() {
     }
-    ;
+    
 
 
     /**
@@ -22642,7 +22642,7 @@ function UGLightbox() {
 
     function __________WIDE_ONLY_________() {
     }
-    ;
+    
 
 
     /**
@@ -22754,7 +22754,7 @@ function UGLightbox() {
 
     function __________COMPACT_ONLY_________() {
     }
-    ;
+    
 
     /**
      * handle slider image height according the textpanel height
@@ -23083,7 +23083,7 @@ function UGLightbox() {
 
     function __________COMMON_________() {
     }
-    ;
+    
 
 
     /**
@@ -23327,7 +23327,7 @@ function UGLightbox() {
 
     function __________EVENTS_________() {
     }
-    ;
+    
 
 
     /**
@@ -24003,7 +24003,7 @@ function UGCarousel() {
 
     function __________GENERAL_________() {
     }
-    ;
+    
 
     /**
      * init the gallery
@@ -24166,7 +24166,7 @@ function UGCarousel() {
 
     function __________GETTERS_______() {
     }
-    ;
+    
 
     /**
      * get inner position
@@ -24326,7 +24326,7 @@ function UGCarousel() {
 
     function __________OTHER_METHODS_______() {
     }
-    ;
+    
 
 
     /**
@@ -24601,7 +24601,7 @@ function UGCarousel() {
 
     function __________AUTOPLAY_______() {
     }
-    ;
+    
 
     /**
      * start autoplay
@@ -24687,7 +24687,7 @@ function UGCarousel() {
 
     function __________EVENTS_______() {
     }
-    ;
+    
 
 
     /**
