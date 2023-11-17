@@ -1,6 +1,6 @@
 # Blogging Template
 
-Description
+### Description
 [Living the Florida Dream](https://codelikeagirl29.github.io/blog/) is a platform dedicated to sharing insightful articles, stories, and information on Marine Biology. I created this as a tribute to oceanology. Living near the Gulf of Mexico has inspired me.
 
 ### Features
